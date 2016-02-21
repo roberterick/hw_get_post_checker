@@ -1,0 +1,12 @@
+{
+  "name": "hw_get_post_checker",
+  "version": "1.0.0",
+  "description": "Get-Post checker express and node.js",
+  "main": "main.js",
+  "author": "Robert Erick",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.2",
+    "express-handlebars": "^3.0.0"
+  }
+}

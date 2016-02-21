@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <title>Showing your request...</title>
+</head>
+<body>
+
+<h1>{{requestType}} request received</h1>
+<br>
+
+<h2>These query items were received:</h2>
+<ul>
+  {{#each queryList}}
+    <li>{{this.name}}: {{this.value}}</li>
+  {{/each}}
+</ul>
+
+<h2>These body items were received:</h2>
+<ul>
+  {{#each bodyList}}
+    <li>{{this.name}}: {{this.value}}</li>
+  {{/each}}
+</ul>
+
+</body>
+</html>
